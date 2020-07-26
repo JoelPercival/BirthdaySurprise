@@ -23,14 +23,28 @@ if name == "lisha" and is_birthday is True:
                 print("The next clue wont be so easy.. you're going to have to study for this one...") # second location in grad photo
                 code_2 = input("input the second code: ").lower()
                 
-                if code_2 == "lishgotthemsmarts": # second code
+                if code_2 == "cleverlish": # second code
                     print("You are making this look far too easy...")
                     print("For this next one we are going to shake it up a bit!")
                     code_3 = input("input the third code: ").lower() # third location is in the cocktail shaker
-                    if code_3 == "INSERT NAME OF THE HOTEL IN DUBAI":
+                    
+                    if code_3 == "dubai": # third code
                     	print("Good memories! What a great way to break the law ;)")
-                    	print("For the 4th code, you are going to channel your inner virgin to find it!")
-                    	code_4 == ""
+                    	print("For the 4th code, you are going to channel your inner virgin to find it!") # third location is under the virgin box
+                    	code_4 = input("input the forth code: ").lower()
+                    	
+                    	if code_4 == "march 13th": # forth code
+                    		print("The first day of living in our beautiful home :)")
+                    		print("One more code to go! This one is hidden somewhere verrry boring")
+                    		code_5 = input("input the final code: ").lower()
+
+                    		if code_5 == "happybirthdaybeautiful": # final code
+                    			print("Happy birthday! You are the best and I love you so much!")
+                    			print("follow the hint on code 5 for the key location")
+                    	else:
+                    		print("try, again!") # ensure this looped to offer multiple tries
+                    else:
+                    	print("try, again!") # ensure this looped to offer multiple tries
                 else:
                     print("try, again!") # ensure this looped to offer multiple tries
             else:
