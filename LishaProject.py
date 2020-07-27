@@ -40,7 +40,7 @@ if name == "lisha" and is_birthday is True:
 
                     		if code_5 == "happybirthdaybeautiful": # final code
                     			print("Happy birthday! You are the best and I love you so much!")
-                    			print("follow the hint on code 5 for the key location")
+                    			print("follow the hint under code 5 for the key location")
                     	else:
                     		print("try, again!") # ensure this looped to offer multiple tries
                     else:
@@ -55,4 +55,5 @@ if name == "lisha" and is_birthday is True:
         print("oh.... thats rude....")
 else:
     print("Unlucky, this game is for Lisha")
-
+    
+print("Thanks for playing my game :)")
